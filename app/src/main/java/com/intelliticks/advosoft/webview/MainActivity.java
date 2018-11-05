@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 .webViewBuiltInZoomControls(true)
                 .webViewDisplayZoomControls(false)
                 .showSwipeRefreshLayout(false)
+                .query("")  //set parameter key=value&key=value&key=value
                  .loadWeb();
 
 
